@@ -1,0 +1,252 @@
+<!-- BEG ANGY KAIRU 2026 META FULL STACK DEVELOPER (HTML & CSS IN DEPTH) : PORTFOLIO PROJECT-->
+ 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Little Lemon</title>
+        <meta name="description" content="A family-owned Mediterranean restaurant based in Chicago, Illinois">
+        <meta name="author" content="Little Lemon Restaurant">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <header>
+            <img src="logo.png" width="700px" height="250px">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="menu">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h2> Today's Featured Items </h1>
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="card">
+                                    <img src="calamari.png" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h2 class="card-title"> Fried Calamari <span class="badge bg-primary"> NEW! </span></h2>
+                                        <p class="card-text"> Buttermilk-battered squid fried to a golden crisp and served with lemon aioli and marinara. <i class="new"> Try it out today! </i> </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="card">
+                                    <img src="platter.png" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h2 class="card-title"> Family Platter <span class="badge custom-pink"> FEAST COMBO! </span></h2> </h2>
+                                        <p class="card-text"> Grilled chicken, lamb kofta, falafel, hummus, pita, and fries<br> <i class="feast"> Perfect for sharing </i></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 col-lg-6">
+                                <div class="card">
+                                    <img src="gryo.png" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h2 class="card-title"> Lamb Gryo + Fries <span class="badge custom-orange"> SIDE DISH OFFER! </span></h2> </h2>
+                                        <p class="card-text"> Juicy seasoned lamb wrapped in warm pita. <i class="offer"> Comes with crispy golden fries/onion rings/plantain</i></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="card">
+                                    <img src="falafel.png" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h2 class="card-title"> Falafel <span class="badge custom-blue"> ON OFFER! </span></h2>
+                                        <p class="card-text"> Crispy chickpea fritters blended with herbs and spices, served fresh with sides of your choice <br><i class="discount"> Get it now at $5 off! </i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <h2>Our Menu</h2>
+
+                        <table class="table">
+                            <p class="note">
+                                Curated by our great team and head chef, Anthony.
+                            </p>
+
+                            <tr class="feature">
+                                <td> Fried Calamari </td>
+                                <td> 10.00 </td>
+                                <td> <input type="checkbox" id="cb_calamari" name="cb_calamari"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Pasta Salad </td>
+                                <td> 12.00 </td>
+                                <td> <input type="checkbox" id="cb_pasta_salad" name="cb_pasta_salad"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Chicken Shawarma </td>
+                                <td> 14.00 </td>
+                                <td> <input type="checkbox" id="cb_chicken_warma" name="cb_chicken_warma"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Beef Kofta Kebab </td>
+                                <td> 15.50 </td>
+                                <td> <input type="checkbox" id="cb_bk_kebab" name="cb_bk_kebab"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Vegetarian Moussaka </td>
+                                <td> 13.25 </td>
+                                <td> <input type="checkbox" id="cb_veg_moussaka" name="cb_veg_moussaka"> </td>
+                            </tr>
+
+                            <tr class="feature">
+                                <td> Falafel </td>
+                                <td> 10.00 </td>
+                                <td> <input type="checkbox" id="cb_falafel" name="cb_falafel"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Fattoush Salad </td>
+                                <td> 8.75 </td>
+                                <td> <input type="checkbox" id="cb_fattoush_sal" name="cb_fattoush_sal"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Baba Ghanoush </td>
+                                <td> 7.00 </td>
+                                <td> <input type="checkbox" id="cb_baba_chan" name="cb_baba_chan"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Harissa Shrimp </td>
+                                <td> 10.00 </td>
+                                <td> <input type="checkbox" id="cb_hari_shri" name="cb_hari_shri"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Hummus with Pita </td>
+                                <td> 6.50 </td>
+                                <td> <input type="checkbox" id="cb_hum_pit" name="cb_hum_pit"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Lamb Dolma </td>
+                                <td> 6.75 </td>
+                                <td> <input type="checkbox" id="cb_lamb_dolma" name="cb_lamb_dolma"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Grilled Halloumi </td>
+                                <td> 9.50 </td>
+                                <td> <input type="checkbox" id="cb_grill_hall" name="cb_grill_hall"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Quinoa Tabbouleh </td>
+                                <td> 9.25 </td>
+                                <td> <input type="checkbox" id="cb_qui_tab" name="cb_qui_tab"> </td>
+                            </tr>
+
+                            <tr class="feature">
+                                <td> Lamb Gryo + Fries </td>
+                                <td> 13.50 </td>
+                                <td> <input type="checkbox" id="cb_lamb_gryo" name="cb_lamb_gryo"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Chicken Alfredo </td>
+                                <td> 16.00 </td>
+                                <td> <input type="checkbox" id="cb_chi_fredo" name="cb_chi_fredo"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Orzo Pasta with Lamb </td>
+                                <td> 16.00 </td>
+                                <td> <input type="checkbox" id="cb_orzo_lamb" name="cb_orzo_lamb"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Doner Kebab Plate </td>
+                                <td> 14.25 </td>
+                                <td> <input type="checkbox" id="cb_donner_keb" name="cb_donner_keb"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Shish Tawook </td>
+                                <td> 14.50 </td>
+                                <td> <input type="checkbox" id="cb_shish_taw" name="cb_shish_taw"> </td>
+                            </tr>
+
+                             <tr class="feature">
+                                <td> Family Platter </td>
+                                <td> 25.00 </td>
+                                <td> <input type="checkbox" id="cb_fam_platter" name="cb_fam_platter"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Grilled Sea Bass </td>
+                                <td> 18.50 </td>
+                                <td> <input type="checkbox" id="cb_grilled_bass" name="cb_grilled_bass"> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Lamb Tagine </td>
+                                <td> 17.50 </td>
+                                <td> <input type="checkbox" id="cb_lamb_tagine" name="cb_lamb_tagine"> </td>
+                            </tr>
+
+                            <div class="alert alert-info" role="alert">
+                                TRY OUR NEW FRIED CALAMARI AND OTHER FEATURED ITEMS!
+                            </div>
+                        </table> 
+                    </div>
+                </div>
+
+                <br><button type="submit" class="btn btn-primary"> Add selected items to your cart </button
+            </div>
+            
+        </main>
+
+        <footer>
+            <div>
+                <img src="logo_footer.png" width="200px" height="250px">
+            </div>
+
+            <div>
+                <p>Copyright Little Lemon</p>
+                <p>254, Resi Street, Karen District, Nairobi City </p>
+                <p>littlelemonrestaurant254@gmail.com</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<!-- END ANGY KAIRU 2026 META FULL STACK DEVELOPER (HTML & CSS IN DEPTH) : PORTFOLIO PROJECT-->
+ 
