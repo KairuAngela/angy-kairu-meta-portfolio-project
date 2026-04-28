@@ -1,0 +1,45 @@
+/*-------------------------------------------*/
+/*		ANGY KAIRU 20260428 PROGRESS NOTE	 */
+/*-------------------------------------------*/
+
+Lab Requirements Summary
+
+A. VISUAL LAYOUT
+
+Home page:
+
+1. Clarity that it is a home page for one of the fictional clients - DONE
+2. Correct company logo at the top of the page - DONE
+3. Horizontal navigation menu with four links below the logo - DONE
+4. One of the links in the nav menu should link to the home page itself - DONE
+5. Main content should contain a large promotional banner at the top and three columns below it, each containing an image and some text - DONE
+6. Have a footer that is split into two columns - DONE
+7. Left column of the footer with a small version of the client logo and the right column copyright text - DONE
+
+Semantic structure. HTML with:
+
+1. A header element for the logo - DONE
+2. A nav element for the navigation menu - DONE
+3. A main element for the content - DONE
+4. A footer element for the footer - DONE
+5. Appropriate use of other tags like article and section - DONE
+
+CSS layout, styling and effects. Home page in the browser:
+
+1. The use of CSS styling should be effective - DONE
+2. CSS used to create appropriate interactivity - TO BE REVIEWED
+
+CSS file in VS Code:
+
+1. Grid or flexbox layout - DONE(Flexbox)
+2. Have the appropriate selectors to style elements - DONE
+3. Specify any pseudo-classes to create interactivity on the home page - TO BE REVIEWED
+4. Animations or transition effects used? Improve the user experience - TO BE REVIEWED
+
+Overall effect of the home page:
+
+1. Home page creates adequate interaction and a pleasing visual experience - DONE
+2. CSS styling and effects used effectively to create intentional engagement - DONE
+
+What works well? 
+What advice can you give to improve the user experience, layout and visuals of the home page?
