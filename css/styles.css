@@ -27,6 +27,14 @@ nav a {
     color: white;
 }
 
+nav a:hover {
+    color: gold;
+}
+
+a:visited {
+    color: #c49a2c;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -123,6 +131,10 @@ article {
 .custom-pink {
     background-color: pink;
     color: #fff;
+}
+
+button:hover {
+    background-color: gold;
 }
 
 footer {
